@@ -8,6 +8,18 @@ body {
   background-color: #ccc !important;
 }
 
+// Añade esta línea para ignorar el selector problemático
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.form-floating label {
+  margin: 0;
+}
+
 body {
   margin: 0;
   overflow: hidden;
