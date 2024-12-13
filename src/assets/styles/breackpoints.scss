@@ -1,4 +1,4 @@
-@import "variables";
+@use "./variables" as *;
 
 .navbar-container {
   height: $navbar-height; // Usa la variable global

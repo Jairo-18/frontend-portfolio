@@ -1,6 +1,6 @@
-@import "variables.scss";
-@import url("./assets/styles/global.scss");
-@import url("./assets/styles/breackpoints.scss");
+@use "./assets/styles/variables" as *;
+@use "./assets/styles/global" as *;
+@use "./assets/styles/breakpoints" as *;
 
 html,
 body {
