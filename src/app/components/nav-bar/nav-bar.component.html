@@ -1,8 +1,13 @@
-<mat-toolbar color="primary" class="navbar">
-  <span class="logo">Jhon Legarda Dev-Frontend</span>
-  <span class="spacer"></span>
-  <button mat-button routerLink="/">Home</button>
-  <button mat-button routerLink="/about-me">About me</button>
-  <button mat-button routerLink="/contact">Contant</button>
-  <mat-icon class="menu-icon" aria-hidden="true">menu</mat-icon>
-</mat-toolbar>
+<nav class="navbar-container row">
+  <div class="col d-flex">
+    <div class="col-2">
+      <img src="../../../assets/img/logo.jpg" alt="Logo" class="img-fluid" />
+    </div>
+    <div class="col-6"><span class="logo">Jhon Legarda</span></div>
+  </div>
+  <div class="col-6 justify-content-end align-content-end">
+    <button mat-button class="align-items-end" routerLink="/">Home</button>
+    <button mat-button routerLink="/about-me">About me</button>
+    <button mat-button routerLink="/contact">Contant</button>
+  </div>
+</nav>

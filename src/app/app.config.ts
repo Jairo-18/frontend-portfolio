@@ -17,6 +17,6 @@ export const appConfig: ApplicationConfig = {
     provideAnimationsAsync(),
     MatButtonModule,
     MatToolbarModule,
-    MatIconModule, // Agrega más módulos según sea necesario
+    MatIconModule, provideAnimationsAsync(), // Agrega más módulos según sea necesario
   ],
 };

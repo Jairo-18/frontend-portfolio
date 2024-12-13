@@ -1,5 +1,6 @@
-@use "@angular/material";
-@use "bootstrap/scss/bootstrap";
+@import "variables.scss";
+@import url("./assets/styles/global.scss");
+@import url("./assets/styles/breackpoints.scss");
 
 html,
 body {
@@ -9,29 +10,12 @@ body {
 
 body {
   margin: 0;
-}
-
-// .mat-typography {
-//   font: 400 1rem / 1.5rem $font-family;
-//   height: calc(100vh - $heigth-nav-bar);
-// }
-
-app-login {
-  display: flex;
-}
-
-body {
-  margin: 0;
+  overflow: hidden;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+html {
+  overflow-y: scroll;
 }
 
 html,
